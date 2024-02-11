@@ -138,6 +138,14 @@ function App() {
 
   return (
     <div className="calculator-grid">
+      <div class="container">
+      <p>Hello 👋 I'm</p>
+        <section class="animation">
+        <div class="first"><div>Rakesh Kumar Thera</div></div>
+        <div class="second"><div>Fullstack Developer</div></div>
+        <div class="third"><div>calculator</div></div>
+        </section>
+      </div>
       <div className="output">
         <div className="previous-operand">
           {formatOperand(previousOperand)} {operation}
