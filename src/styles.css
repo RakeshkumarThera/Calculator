@@ -6,9 +6,8 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+  background: linear-gradient(to right, #7700ff, #e722f6);
   font-family:'Roboto';
-
 }
 
 .calculator-grid {
@@ -74,7 +73,7 @@ p {
 
 .container {
   grid-column: 1 / -1;
-  color: #000000;
+  color: #ffffff;
   font-size: 1.2rem;
   text-transform: uppercase;
   display: flex;
